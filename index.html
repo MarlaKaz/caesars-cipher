@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesars cipher</title>
+</head>
+<body>
+    <!--Styling inspiration taken from my 5th project (but haven't actually styled it yet) -->
+  <nav id="navbar" class="nav">
+    <div class="left-nav">
+      <header> Caesars cipher </header>
+    </div>
+    <div class="right-nav">
+      <ul class="nav-list">
+        <li><a href="#play"> PLAY</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section id="play-section" class="play-section">
+    <div class="container">
+      <div class="left-container">
+        Input text:<br>
+        <textarea id="myTextArea" class="textArea"></textarea>
+        <button type="button" onclick="rot13()">Result</button>
+        <!--<p id="demo"></p>-->
+      </div>
+      <div class="right-container">
+        Output text:<br>
+        <textarea id="demo" class="textArea"></textarea>
+      </div>
+    </div>
+  </section>
+  <script src="index.js"></script>
+</body>
+</html>
